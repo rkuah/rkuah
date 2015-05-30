@@ -1,0 +1,12 @@
+./myinfo
+Fri May 29 23:45:13 CDT 2015
+----------------------------
+System name: conquest
+User information:
+full name: Ravi K Kaki
+log name: rkk0002
+uid: 1441
+gid: 210
+HOME dir: /home/csuser/rkk0002
+Default shell: /bin/bash
+------------------------------
