@@ -1,0 +1,7 @@
+637,642d636
+<   system("date");
+<   char hostname[100];
+<   gethostname(hostname,sizeof(hostname));
+<   print_esc_string(hostname);
+<   print_esc_string("\n");
+< 

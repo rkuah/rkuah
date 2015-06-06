@@ -1,0 +1,3 @@
+Modified printf utility program.
+Added "date", and host name.
+printf program prints given output, along with date and hostname.
