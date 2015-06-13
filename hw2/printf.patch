@@ -1,7 +1,15 @@
-637,642d636
-<   system("date");
-<   char hostname[100];
-<   gethostname(hostname,sizeof(hostname));
-<   print_esc_string(hostname);
-<   print_esc_string("\n");
-< 
+--- printf.c	2015-06-06 10:32:24.441884459 -0700
++++ printf_ver.c	2015-06-06 10:31:30.441929679 -0700
+@@ -634,12 +634,6 @@
+   char *format;
+   int args_used;
+ 
+-  system("date");
+-  char hostname[100];
+-  gethostname(hostname,sizeof(hostname));
+-  print_esc_string(hostname);
+-  print_esc_string("\n");
+-
+   initialize_main (&argc, &argv);
+   set_program_name (argv[0]);
+   setlocale (LC_ALL, "");
